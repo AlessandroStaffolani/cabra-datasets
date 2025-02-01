@@ -1,0 +1,112 @@
+{
+  "newyork": {
+    "base_path": "data/cdrc_data/newyork",
+    "docking_stations_file": "newyork_bikelocations.csv",
+    "observation_files": {
+      "2019": "newyork_ind_2019.csv",
+      "2020": "newyork_ind_2020.csv",
+      "2021": "newyork_ind_2021.csv",
+      "2022": "newyork_ind_2022.csv"
+    },
+    "sum_file": "newyork_sum.csv",
+    "csv_head_mapping": {
+      "tfl_id": "station_id",
+      "timestamp": "timestamp",
+      "total_docks": "capacity",
+      "bikes": "bikes",
+      "ebikes": "ebikes",
+      "spaces": "empty_slots"
+    },
+    "suggested_zones": 25,
+    "use_recursion": false,
+    "recursion_threshold": 40
+  },
+  "boston": {
+    "base_path": "data/cdrc_data/boston",
+    "docking_stations_file": "boston_bikelocations.csv",
+    "observation_files": {
+      "2019": "boston_ind_2019.csv",
+      "2020": "boston_ind_2020.csv",
+      "2021": "boston_ind_2021.csv",
+      "2022": "boston_ind_2022.csv"
+    },
+    "sum_file": "boston_sum.csv",
+    "csv_head_mapping": {
+      "tfl_id": "station_id",
+      "timestamp": "timestamp",
+      "total_docks": "capacity",
+      "bikes": "bikes",
+      "ebikes": "ebikes",
+      "spaces": "empty_slots"
+    },
+    "suggested_zones": 10,
+    "use_recursion": true,
+    "recursion_threshold": 50
+  },
+  "dublin": {
+    "base_path": "data/cdrc_data/dublin",
+    "docking_stations_file": "dublin_bikelocations.csv",
+    "observation_files": {
+      "2019": "dublin_ind_2019.csv",
+      "2020": "dublin_ind_2020.csv",
+      "2021": "dublin_ind_2021.csv",
+      "2022": "dublin_ind_2022.csv"
+    },
+    "sum_file": "dublin_sum.csv",
+    "csv_head_mapping": {
+      "tfl_id": "station_id",
+      "timestamp": "timestamp",
+      "total_docks": "capacity",
+      "bikes": "bikes",
+      "ebikes": "ebikes",
+      "spaces": "empty_slots"
+    },
+    "suggested_zones": 4,
+    "use_recursion": false,
+    "recursion_threshold": 0
+  },
+  "london": {
+    "base_path": "data/cdrc_data/london",
+    "docking_stations_file": "london_bikelocations.csv",
+    "observation_files": {
+      "2019": "london_ind_2019.csv",
+      "2020": "london_ind_2020.csv",
+      "2021": "london_ind_2021.csv",
+      "2022": "london_ind_2022.csv"
+    },
+    "sum_file": "london_sum.csv",
+    "csv_head_mapping": {
+      "tfl_id": "station_id",
+      "timestamp": "timestamp",
+      "total_docks": "capacity",
+      "bikes": "bikes",
+      "ebikes": "ebikes",
+      "spaces": "empty_slots"
+    },
+    "suggested_zones": 10,
+    "use_recursion": false,
+    "recursion_threshold": 50
+  },
+  "paris": {
+    "base_path": "data/cdrc_data/paris",
+    "docking_stations_file": "paris_bikelocations.csv",
+    "observation_files": {
+      "2019": "paris_ind_2019.csv",
+      "2020": "paris_ind_2020.csv",
+      "2021": "paris_ind_2021.csv",
+      "2022": "paris_ind_2022.csv"
+    },
+    "sum_file": "paris_sum.csv",
+    "csv_head_mapping": {
+      "tfl_id": "station_id",
+      "timestamp": "timestamp",
+      "total_docks": "capacity",
+      "bikes": "bikes",
+      "ebikes": "ebikes",
+      "spaces": "empty_slots"
+    },
+    "suggested_zones": 20,
+    "use_recursion": false,
+    "recursion_threshold": 40
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "baywheels": {
+    "gbfs_url": "https://gbfs.baywheels.com/gbfs/gbfs.json",
+    "is_special": false,
+    "obsd_url": "https://bikeshare-research.org/api/v1/systems/san_francisco",
+    "station_information_index": 1,
+    "trace_files": {
+      "2020": [
+        "https://s3.amazonaws.com/baywheels-data/202004-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202005-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202006-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202007-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202008-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202009-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202010-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202011-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202012-baywheels-tripdata.csv.zip"
+      ],
+      "2021": [
+        "https://s3.amazonaws.com/baywheels-data/202101-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202102-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202103-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202104-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202105-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202106-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202107-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202108-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202109-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202110-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202111-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202112-baywheels-tripdata.csv.zip"
+      ],
+      "2022": [
+        "https://s3.amazonaws.com/baywheels-data/202201-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202202-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202203-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202204-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202205-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202206-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202207-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202208-baywheels-tripdata.csv.zip",
+        "https://s3.amazonaws.com/baywheels-data/202209-baywheels-tripdata.csv.zip"
+      ]
+    },
+    "traces_link": "https://s3.amazonaws.com/baywheels-data",
+    "csv_head_mapping": {
+      "2020": {
+        "start_time": "started_at",
+        "stop_time": "ended_at",
+        "start_trip_id": "start_station_id",
+        "stop_trip_id": "end_station_id",
+        "extra_column": "ride_id"
+      },
+      "2021": {
+        "start_time": "started_at",
+        "stop_time": "ended_at",
+        "start_trip_id": "start_station_id",
+        "stop_trip_id": "end_station_id",
+        "extra_column": "ride_id"
+      },
+      "2022": {
+        "start_time": "started_at",
+        "stop_time": "ended_at",
+        "start_trip_id": "start_station_id",
+        "stop_trip_id": "end_station_id",
+        "extra_column": "ride_id"
+      }
+    },
+    "pivot_node": "SF-I21"
+  },
+  "blue_bikes": {
+    "gbfs_url": "https://gbfs.bluebikes.com/gbfs/gbfs.json",
+    "is_special": true,
+    "obsd_url": "https://bikeshare-research.org/api/v1/systems/boston",
+    "station_information_index": 1,
+    "trace_files": {
+      "2020": [
+        "https://s3.amazonaws.com/hubway-data/202001-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202002-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202003-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202004-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202005-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202006-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202007-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202008-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202009-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202010-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202011-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202012-bluebikes-tripdata.zip"
+      ],
+      "2021": [
+        "https://s3.amazonaws.com/hubway-data/202101-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202102-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202103-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202104-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202105-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202106-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202107-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202108-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202109-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202110-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202111-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202112-bluebikes-tripdata.zip"
+      ],
+      "2022": [
+        "https://s3.amazonaws.com/hubway-data/202201-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202202-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202203-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202204-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202205-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202206-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202207-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202208-bluebikes-tripdata.zip",
+        "https://s3.amazonaws.com/hubway-data/202209-bluebikes-tripdata.zip"
+      ]
+    },
+    "traces_link": "https://s3.amazonaws.com/hubway-data",
+    "csv_head_mapping": {
+      "2020": {
+        "start_time": "starttime",
+        "stop_time": "stoptime",
+        "start_trip_id": "start station id",
+        "stop_trip_id": "end station id",
+        "extra_column": "start station name"
+      },
+      "2021": {
+        "start_time": "starttime",
+        "stop_time": "stoptime",
+        "start_trip_id": "start station id",
+        "stop_trip_id": "end station id",
+        "extra_column": "start station name"
+      },
+      "2022": {
+        "start_time": "starttime",
+        "stop_time": "stoptime",
+        "start_trip_id": "start station id",
+        "stop_trip_id": "end station id",
+        "extra_column": "start station name"
+      }
+    },
+    "pivot_node": null
+  },
+  "capital_bikeshare": {
+    "gbfs_url": "https://gbfs.capitalbikeshare.com/gbfs/gbfs.json",
+    "is_special": false,
+    "obsd_url": "https://bikeshare-research.org/api/v1/systems/washingtondc",
+    "station_information_index": 1,
+    "trace_files": {
+      "2020": [
+        "https://s3.amazonaws.com/capitalbikeshare-data/202004-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202005-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202006-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202007-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202008-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202009-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202010-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202011-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202012-capitalbikeshare-tripdata.zip"
+      ],
+      "2021": [
+        "https://s3.amazonaws.com/capitalbikeshare-data/202101-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202102-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202103-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202104-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202105-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202106-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202107-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202108-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202109-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202110-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202111-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202112-capitalbikeshare-tripdata.zip"
+      ],
+      "2022": [
+        "https://s3.amazonaws.com/capitalbikeshare-data/202201-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202202-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202203-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202204-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202205-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202206-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202207-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202208-capitalbikeshare-tripdata.zip",
+        "https://s3.amazonaws.com/capitalbikeshare-data/202209-capitalbikeshare-tripdata.zip"
+      ]
+    },
+    "traces_link": "https://s3.amazonaws.com/capitalbikeshare-data",
+    "csv_head_mapping": {
+      "2020": {
+        "start_time": "started_at",
+        "stop_time": "ended_at",
+        "start_trip_id": "start_station_id",
+        "stop_trip_id": "end_station_id",
+        "extra_column": "ride_id"
+      },
+      "2021": {
+        "start_time": "started_at",
+        "stop_time": "ended_at",
+        "start_trip_id": "start_station_id",
+        "stop_trip_id": "end_station_id",
+        "extra_column": "ride_id"
+      },
+      "2022": {
+        "start_time": "started_at",
+        "stop_time": "ended_at",
+        "start_trip_id": "start_station_id",
+        "stop_trip_id": "end_station_id",
+        "extra_column": "ride_id"
+      }
+    },
+    "pivot_node": null
+  },
+  "citibike": {
+    "gbfs_url": "https://gbfs.citibikenyc.com/gbfs/gbfs.json",
+    "is_special": false,
+    "obsd_url": "https://bikeshare-research.org/api/v1/systems/nyc",
+    "station_information_index": 1,
+    "trace_files": {
+      "2020": [
+        "https://s3.amazonaws.com/tripdata/202001-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202002-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202003-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202004-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202005-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202006-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202007-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202008-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202009-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202010-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202011-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202012-citibike-tripdata.csv.zip"
+      ],
+      "2021": [
+        "https://s3.amazonaws.com/tripdata/202101-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202102-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202103-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202104-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202105-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202106-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202107-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202108-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202109-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202110-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202111-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202112-citibike-tripdata.csv.zip"
+      ],
+      "2022": [
+        "https://s3.amazonaws.com/tripdata/202201-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202202-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202203-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202204-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202205-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202206-citbike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202207-citbike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202208-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202209-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202210-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202211-citibike-tripdata.csv.zip",
+        "https://s3.amazonaws.com/tripdata/202212-citibike-tripdata.csv.zip"
+      ]
+    },
+    "traces_link": "https://s3.amazonaws.com/tripdata",
+    "csv_head_mapping": {
+      "2020": {
+        "start_time": "starttime",
+        "stop_time": "stoptime",
+        "start_trip_id": "start station id",
+        "stop_trip_id": "end station id",
+        "extra_column": "start station name"
+      },
+      "2021": {
+        "start_time": "started_at",
+        "stop_time": "ended_at",
+        "start_trip_id": "start_station_id",
+        "stop_trip_id": "end_station_id",
+        "extra_column": "ride_id"
+      },
+      "2022": {
+        "start_time": "started_at",
+        "stop_time": "ended_at",
+        "start_trip_id": "start_station_id",
+        "stop_trip_id": "end_station_id",
+        "extra_column": "ride_id"
+      }
+    },
+    "pivot_node": "6779.05"
+  }
+}
